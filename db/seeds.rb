@@ -8,3 +8,4 @@
 Todo.destroy_all
 
 Todo.create(task: "Help Persist", description: "This is in the backend")
+Grocery.create(item: "Milk")
