@@ -1,0 +1,2 @@
+class Tablature < ApplicationRecord
+end
