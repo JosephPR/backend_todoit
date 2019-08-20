@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :apartments
   resources :tablatures
   resources :groceries
   resources :todos
