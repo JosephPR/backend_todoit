@@ -10,4 +10,4 @@ Todo.destroy_all
 Todo.create(task: "Help Persist", description: "This is in the backend")
 Grocery.create(item: "Milk")
 Tablature.create(name: "BWV 999 - Prelude in Cm for solo lute", url:"https://www.classtab.org/bach_js_bwv0999_prelude_in_cm_for_lute.txt",description:"one of Bachs most popular pieces for guitar.It was originally in Cm, but here it is transposed to Dm for guitar", composer:"Johann Sebastian Bach (1685-1750)", skill:"medium/hard")
-Apartment.create(neighborhood: "westminster", price:1300, amenities:"balcony", number:3032474999)
+Apartment.create(neighborhood: "westminster", price:"1300", amenities:"balcony", number:"3032474999")
