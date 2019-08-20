@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Todo.destroy_all
+Grocery.destroy_all
+Apartment.destroy_all
+Tablature.destroy_all
 
 Todo.create(task: "Help Persist", description: "This is in the backend")
 Grocery.create(item: "Milk")
